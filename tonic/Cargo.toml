@@ -73,7 +73,6 @@ tracing-futures = { version = "0.2", optional = true }
 
 # rustls
 tokio-rustls = { git = "https://github.com/elf-bot/tokio-rustls" }
-#{ version = "0.12", optional = true }
 rustls-native-certs = { version = "0.1", optional = true }
 
 [dev-dependencies]
