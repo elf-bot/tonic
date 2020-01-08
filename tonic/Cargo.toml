@@ -72,7 +72,7 @@ tower-load = { version = "0.3", optional = true }
 tracing-futures = { version = "0.2", optional = true }
 
 # rustls
-tokio-rustls = { git = "https://github.com/elf-bot/tokio-rustls" }
+tokio-rustls = { git = "https://github.com/elf-bot/tokio-rustls", optional = true }
 rustls-native-certs = { version = "0.1", optional = true }
 
 [dev-dependencies]
@@ -88,4 +88,3 @@ rustdoc-args = ["--cfg", "docsrs"]
 [[bench]]
 name = "decode"
 harness = false
-
